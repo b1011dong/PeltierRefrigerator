@@ -3,13 +3,13 @@
 
 #define GLOBAL_DELAY 50
 
-#define PIN_TEMPERATURE 13
-#define PIN_RELAY 22
-#define PIN_DHT11 24
-#define PIN_BUTTON 37
-#define PIN_RED 27
-#define PIN_BLUE 25
-#define PIN_GREEN 23
+#define PIN_TEMPERATURE 0 // analog
+#define PIN_RELAY 7
+#define PIN_DHT11 2
+#define PIN_BUTTON 12
+#define PIN_RED 3
+#define PIN_BLUE 4
+#define PIN_GREEN 5
 
 // 온도 설정 -> 값/10 (도씨) 예) 370 -> 37.0 도씨
 #define LIMIT_NORMAL 370 // 과열 온도 (꺼짐)
